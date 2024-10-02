@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="../sources/stylesheets/style.css">
+    <link rel="stylesheet" href="../sources/stylesheets/result-page.css">
+</head>
+<body>
+    <div class="resultsBox centerDiv box">
+        <div class="resultsBox-title">
+            <h3>¡Felicitaciones!</h3>
+            <h4>Haz completado la pueba</h4>
+            <!--Result progress bar-->
+            <div class="wrapper">
+                <div class="outer">
+                    <div class="inner">
+                            <p>8<span class="totalNum">/10</span></p>
+                            <p>Preguntas <br> acertadas</p>
+                    </div>
+                </div>
+                <svg width="15em" height="15em">
+                    <defs>
+                        <linearGradient id="linearGradient">
+                            <stop offset="0%" stop-color= "var(--wingoBlue)"/>
+                            <stop offset="110%" stop-color="var(--wingoMagenta)"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="7.5em" cy="7.5em" r="6em"/>
+                </svg>
+            </div>
+
+
+            <div class="resultsBox-points">
+                <p>Puntos totales</p>
+                <h4>0</h4>
+            </div>
+        </div>
+        <div class="resultsBox-buttons">
+            <button class="resultsBox-button">Volver</button>
+            <button class="resultsBox-button">Ver globales</button>
+        </div>
+    </div>
+    <!--Scripts-->
+    <script type="module" src="../scripts/test-page/quizResults_handle.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.background1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: 2;
+    display: none;
+}
+
+.infoBox{
+    background-color: var(--bgWhite);
+    width: 550px;
+    border-radius: 5px;
+    display: none;
+    z-index: 100;
+  }
+    .infoBox-title{
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #d3d3d3;
+      display: flex;
+      align-items: center;
+      padding: 0 35px;
+      font-size: 25px;
+      font-weight: 600;
+    }
+  
+    .infoBox-list{
+      padding: 15px 35px;
+    }
+  
+      .infoBox-list_item{
+        margin: 2px 0;
+      }
+
+      .infoBox-list_item p{
+        font-size: 16px;
+      }
+
+        .infoBox-list_item span{
+          font-size: 17px;
+          font-weight: 600;
+          color: var(--wingoBlue);
+        }
+    
+    .infoBox-buttons{
+      height: 60px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding: 10px 35px;
+      border: 1px solid lightgray;
+    }
+      .infoBox-buttons button{
+        margin: 0 5px;
+        padding: 5px;
+        height: 40px;
+        width: 120px;
+        border: 1px solid var(--wingoBlue);
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .5 ease-in-out;
+      }
+  
+        .infoBox-buttons_continue{
+          background-color: var(--wingoBlue);
+          color: #fff;
+        }
+          .infoBox-buttons_continue:hover{
+            background-color: #4ca5d2;
+            border: none;
+          }
+  
+        .infoBox-buttons_back{
+          background-color: inherit;
+          color: var(--wingoBlue);
+        }
+          .infoBox-buttons_back:hover{
+            background-color: #4ca5d2;
+            color: #fff;
+            border: none;
+          }
+
+  @media (max-width: 768px) {
+    .infoBox-title{
+      display: block;
+    }
+
+    .infoBox-buttons button{
+      width: 35%;
+    }
+  }
+  /*Phone resoponsive*/
+  @media (max-width: 600px)
+  {
+    .infoBox{
+      width: 100vw; 
+    }
+      .infoBox-title{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 18px;
+        height: 100px;
+      }
+
+      .infoBox-list{
+        margin: 0;
+        padding: 0;
+      }
+
+        .infoBox-list_item p, .infoBox-list_item span{
+          font-size: 15px;
+        }
+  
+      .infoBox-buttons{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 17vh; 
+      }
+  
+        .infoBox-buttons button{
+          width: 100%;
+          margin: 0;
+        }
+        .infoBox-buttons_back{
+          margin-top: 10px;
+        }
+  
+  }

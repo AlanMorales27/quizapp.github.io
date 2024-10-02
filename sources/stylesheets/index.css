@@ -1,0 +1,143 @@
+.WingoLogo{
+  position: relative;
+  padding: 0 120px;
+  margin: 0;
+}
+
+  .WingoLogo img{
+    height: 140px;
+    width: 180px;
+  }
+
+.principalInfo{
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 130px;
+  }
+    .principalInfo-startButton{
+        background-color: var(--wingoYellow);
+        padding: 10px 30px;
+        margin-top: 20px;
+        width: 30%;
+        border: none;
+        color: #000;
+        cursor: pointer;
+        font-size: 18px;
+        transition: .2s ease-in-out;
+    }
+      .principalInfo-startButton:hover{
+        background-color: #e3c943;
+        color: #fff;
+        font-size: 20px;
+      }
+
+      .fa-play{
+        margin-right: 5px;
+      }
+  
+    .principalInfo h1{
+      font-size: 80px;
+      font-weight: 800;
+      color: #fff;
+      margin: 0;
+    }
+
+    .principalInfo h2{
+      font-size: 40px;
+      color: #fff;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .principalInfo p{
+      color: #fff;
+      font-size: 25px;
+      font-weight: 200;
+      margin: 0;
+    }
+  
+  /*Tablet Response*/
+  @media (max-width: 768px) {
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+      .principalInfo{
+        width: 80vw;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+  
+        .principalInfo-startButton{
+          width: 90%;
+          font-size: 20px;
+          margin: 0;
+          margin-top: 30px;
+        }
+      
+        .principalInfo h1{
+          font-size: 40px;
+        }
+  
+        .principalInfo h2{
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+  
+        .principalInfo p{
+          font-size: 20px;
+        }
+  }
+
+  /*Phone*/
+  @media (max-width: 600px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+    .WingoLogo{
+      padding: 0;
+      margin: 0;
+    }
+    .principalInfo{
+      width: 97vw;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+      .principalInfo-startButton{
+        width: 90%;
+        font-size: 20px;
+        margin: 0;
+        margin-top: 30px;
+      }
+    
+      .principalInfo h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+
+      .principalInfo h2{
+        display: none;
+      }
+
+      .principalInfo p{
+        font-size: 20px;
+      }
+  }
