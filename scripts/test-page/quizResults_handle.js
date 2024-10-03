@@ -37,7 +37,6 @@ class Results{
 
 
 let results = new Results();
-
 results.showCount(
     document.querySelector(".resultsBox-points h4"),
     "points"
@@ -47,7 +46,7 @@ results.showCount(
     "correctAnswers",
 )
 results.findPorcentage(
-    document.querySelector("circle"),
+    document.getElementById("charge"),
 );
 
 results.functionalButton();

@@ -2,11 +2,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    padding: 10px;
+    width: 25%;
     text-align: center;
-    
+
 }
+
+  .resultsBox-title{
+    border-bottom: 1px solid #d3d3d3;
+    margin: 0;
+    padding: 12px;
+    align-items: baseline;
+    width: 100%;
+  }
+
+    .resultsBox-title h3{
+      color: #646464;
+      margin: 0;
+      font-size: 20px;
+
+    }
 
   .wrapper {
     position: relative; 
@@ -24,6 +38,7 @@
       border-radius: 50%;
     }
 
+
       .inner{
         width: 15em;
         height: 15em;
@@ -33,11 +48,13 @@
         align-items: center;
         justify-content: center;
       }
-        
+        .inner p{
+          margin: 0;
+        }
         .inner p:first-child{
-          margin-bottom: 10px;
-          font-size: 2rem;
+          font-size: 3rem;
           font-weight: 600;
+          color: #494949;
         }
 
           .inner span{
@@ -64,7 +81,7 @@
       top: 0px;
     }
 
-      circle{
+      #charge{
         fill: none;
         stroke: url(#linearGradient);
         stroke-width: 20px;
@@ -74,20 +91,47 @@
         animation: anim 1s ease forwards;
       }
       
-  .resultsBox-points{
-    padding: 20px 30px 0px 30px;
+      #chargeTotal{
+        fill: none;
+        stroke: #a1a1a14b;
+        stroke-width: 20px;
+        stroke-dashoffset: 1165;
+        stroke-dasharray: 0;
+      }
+  .resultsBox_numbers{
+    margin-top: 13px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
   }
-    
-    .resultsBox-title h3{
-      color: var(--wingoBlue);
+    .resultsBox-points{
+      background-color: var(--wingoMagenta);
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      height: 40px;
+      border-radius: 8px;
+      width: 115px;
+      justify-content: space-around;
     }
+      .resultsBox-points p{
+        margin: 0;
+        margin-right: 5px;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+      }
 
-    .resultsBox h4{
-      margin-top: 2px;
-    }
+      .resultsBox-points h4{
+        background-color: var(--wingoGray);
+        padding: 3px 7px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+      }
 
   .resultsBox-buttons{
     width: 90%;
+    margin: 5px 0 20px 0;
   }  
       .resultsBox-button{
         background-color: var(--wingoYellow);
@@ -100,12 +144,13 @@
         margin-top: 20px;
         padding: 10px;
         cursor: pointer;
+        transition: .5s ease;
       }
 
         .resultsBox-button:hover{
-          background-color: burlywood;
-          background: linear-gradient(180deg, 
-          rgb(224, 193, 18) 0%, var(--wingoYellow) 100%);
+          background-color: #ddc54e;
+          font-size: 18px;
+
         }
 
   @media (max-width: 600px){
