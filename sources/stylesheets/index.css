@@ -29,9 +29,9 @@
         transition: .2s ease-in-out;
     }
       .principalInfo-startButton:hover{
-        background-color: #e3c943;
+        background-color: #ddc54e;
         color: #fff;
-        font-size: 20px;
+        font-size: 19px;
       }
 
       .fa-play{
@@ -39,14 +39,14 @@
       }
   
     .principalInfo h1{
-      font-size: 80px;
+      font-size: 60px;
       font-weight: 800;
       color: #fff;
       margin: 0;
     }
 
     .principalInfo h2{
-      font-size: 40px;
+      font-size: 35px;
       color: #fff;
       font-weight: 500;
       margin: 0;
@@ -58,7 +58,16 @@
       font-weight: 200;
       margin: 0;
     }
-  
+
+  @media (max-width: 1024px){
+    .principalInfo{
+      width: 90vw;
+    }
+    .principalInfo-startButton{
+      width: 40%;
+    }
+  }
+
   /*Tablet Response*/
   @media (max-width: 768px) {
     body{
@@ -122,14 +131,15 @@
     }
 
       .principalInfo-startButton{
+        height: 40px;
         width: 90%;
-        font-size: 20px;
+        font-size: 15px;
         margin: 0;
         margin-top: 30px;
       }
     
       .principalInfo h1{
-        font-size: 40px;
+        font-size: 25px;
         margin-bottom: 20px;
       }
 
@@ -138,6 +148,6 @@
       }
 
       .principalInfo p{
-        font-size: 20px;
+        font-size: 14px;
       }
   }

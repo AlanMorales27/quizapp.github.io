@@ -1,4 +1,9 @@
-  .quizBox header{
+.quizBox{
+  max-height: 100vh;
+  }
+  
+
+.quizBox header{
     position: relative;
     height: 70px;
     padding: 0 30px;
@@ -256,6 +261,7 @@
 }
 
 @media (max-width: 350px){
+
 .quizBox header{
   height: 70px;
   margin: 0;

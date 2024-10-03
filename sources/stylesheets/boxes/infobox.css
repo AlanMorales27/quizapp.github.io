@@ -1,3 +1,4 @@
+/* black background */
 .background1{
     position: absolute;
     top: 0;
@@ -10,34 +11,40 @@
     display: none;
 }
 
+/* Infobox styles */
 .infoBox{
     background-color: var(--bgWhite);
-    width: 550px;
+    max-width: 550px;
     border-radius: 5px;
     display: none;
     z-index: 100;
+    width: 50vw;
   }
     .infoBox-title{
       width: 100%;
-      height: 50px;
       border-bottom: 1px solid #d3d3d3;
       display: flex;
-      align-items: center;
-      padding: 0 35px;
-      font-size: 25px;
+      padding: 12px 25px;
+      margin: 0 auto;
+      font-size: 20px;
       font-weight: 600;
+      color: #414141;
     }
   
     .infoBox-list{
-      padding: 15px 35px;
+      padding: 10px 35px;
     }
+      .infoBox-list:first-child{
+        margin-top: 0;
+      }
   
       .infoBox-list_item{
-        margin: 2px 0;
+        margin: 5px 0;
       }
 
       .infoBox-list_item p{
-        font-size: 16px;
+        font-size: 15px;
+        margin: 0;
       }
 
         .infoBox-list_item span{
@@ -51,14 +58,14 @@
       display: flex;
       justify-content: end;
       align-items: center;
-      padding: 10px 35px;
+      padding: 10px 25px;
       border: 1px solid lightgray;
     }
       .infoBox-buttons button{
         margin: 0 5px;
-        padding: 5px;
-        height: 40px;
-        width: 120px;
+        padding: 3px;
+        height: 35px;
+        width: 110px;
         border: 1px solid var(--wingoBlue);
         border-radius: 5px;
         font-weight: 500;
@@ -102,17 +109,19 @@
     }
       .infoBox-title{
         display: flex;
-        justify-content: center;
-        padding: 0;
+        padding: 0 auto;
         margin: 0 auto;
         font-size: 18px;
-        height: 100px;
       }
 
       .infoBox-list{
         margin: 0;
-        padding: 0;
-      }
+        padding: 10px 12px;
+        text-align: start;
+      } 
+        .infoBox-list_item{
+          margin-top: 5px;
+        }
 
         .infoBox-list_item p, .infoBox-list_item span{
           font-size: 15px;
@@ -121,7 +130,7 @@
       .infoBox-buttons{
         flex-direction: column-reverse;
         justify-content: space-around;
-        height: 17vh; 
+        height: 14vh; 
       }
   
         .infoBox-buttons button{

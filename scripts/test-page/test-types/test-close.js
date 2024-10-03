@@ -71,6 +71,11 @@ export class CloseTest extends QuizBox{
         this.optionList.innerHTML = opt_tag; //Display in the view
         this.questionTitle.innerHTML = this.list[this.count].quest;
 
+        //Change size to title question
+        if(this.questionTitle.textContent.length > 200){
+            this.questionTitle.style.fontSize = "18px";
+        }
+
         //Create a features when click on it
         const options = this.optionList.querySelectorAll("li");
 
