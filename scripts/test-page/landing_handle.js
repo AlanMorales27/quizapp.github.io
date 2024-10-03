@@ -9,9 +9,9 @@ class AlertControl {
 
     alertToggle(){
         let appearBox = new ButtonController(
-            this.button,"",this.alertBox, this.state
+            this.button
         )
-        appearBox.appearBox();
+        appearBox.appearBox(this.alertBox, this.state);
     }
 }
 
@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () =>{
 
     new ButtonController(
         document.querySelector(".infoBox-buttons_continue"),
-        "../screens/test-page.html"
-    ).getPage();
+    ).getPage("../screens/test-page.html");
 
 });

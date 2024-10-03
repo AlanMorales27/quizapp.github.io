@@ -1,29 +1,26 @@
 //Button to redirect page
 export class ButtonController {
-    constructor(button, url, box, boxState){
+    constructor(button){
         this.button = button;
-        this.url = url;
-        this.box = box;
-        this.state = boxState; 
     }
 
     //Redirect to another screen
-    getPage(){
+    getPage(url){
         this.button.onclick = () => {
-            window.location.assign(this.url);
+            window.location.assign(url);
         }
     }
 
     //Show hide boxes
-    appearBox(){
+    appearBox(box, state){
         let background_filter = document.querySelector(".background1");
         this.button.onclick = () => {
             console.log("aparece");
-            if(getComputedStyle(this.box).display != "none") {
-                this.box.style.display = "none";
+            if(getComputedStyle(box).display != "none") {
+                box.style.display = "none";
                 background_filter.style.display = "none";
             } else{
-                this.box.style.display = this.state;
+                box.style.display = state;
                 background_filter.style.display = "block";
             }
         }

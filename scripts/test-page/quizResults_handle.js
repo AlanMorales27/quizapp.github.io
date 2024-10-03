@@ -1,3 +1,4 @@
+import { ButtonController } from "../button_controller.js";
 class Results{
     constructor(){
         
@@ -22,26 +23,31 @@ class Results{
             }
         );
     }
-
     //Show points to save in cache
     showCount(container, type){        
         container.textContent = localStorage.getItem(type);
-        
+    }
+
+    functionalButton(){
+        new ButtonController(
+            document.getElementById("backButton")
+        ).getPage('../../index.html')
     }
 }
 
 
 let results = new Results();
+
 results.showCount(
     document.querySelector(".resultsBox-points h4"),
     "points"
 );
-
 results.showCount(
     document.querySelector(".inner p"),
     "correctAnswers",
 )
-
 results.findPorcentage(
     document.querySelector("circle"),
 );
+
+results.functionalButton();
