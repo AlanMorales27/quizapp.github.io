@@ -146,15 +146,10 @@ export class CloseTest extends QuizBox{
         }
             
     }
-
-    //getters
-    get countTotal(){
-        return this.count_total 
-    }
-
 }
 
 export default CloseTest;
 
 
-new CloseTest(45,questions).start();
+let test1 = new CloseTest(45,questions)
+test1.start();

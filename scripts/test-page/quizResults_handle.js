@@ -28,6 +28,10 @@ class Results{
         container.textContent = localStorage.getItem(type);
     }
 
+    calculateGoal(container){
+        console.log(container.textContent);
+    }
+
     functionalButton(){
         new ButtonController(
             document.getElementById("backButton")
@@ -48,5 +52,9 @@ results.showCount(
 results.findPorcentage(
     document.getElementById("charge"),
 );
+
+results.calculateGoal(
+    document.getElementById("goal"),
+)
 
 results.functionalButton();
