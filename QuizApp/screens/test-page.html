@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <!--Fontstyle reference-->
+    <link rel="stylesheet" href="../sources/fonts/fonts.css">
+    <!--Style sheets-->
+    <link rel="stylesheet" href="../sources/stylesheets/style.css">
+    <link rel="stylesheet" href="../sources/stylesheets/test-page.css">
+    <!--Icons resources in Font Awesome -->
+    <script src="https://kit.fontawesome.com/adec08d7b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>  
+    <div class="quizBox box centerDiv" id="quizBox">
+        <!--Quiz Header-->
+        <header>
+            <h3>Te ponemos a prueba!</h3>
+            <div class="quizBox-headerTimer">
+                <div class="quizBox-headerTimer_text"><p>Tiempo Restante</p></div>
+                <div class="quizBox-headerTimer_counter"><p></p></div>
+            </div>
+            <div class="quizBox-headerLineTime"></div>
+        </header>
+        <div class="quizBox-alert"><p>Hola</p></div>
+        <!--Quiz body-->
+        <section class="quizBox-body">
+            <h3 class="quizBox-body_question">Pregunta programada</h3>
+            <ul class="quizBox-body_optionList">
+                <li><p>Opcion programada</p></li>
+                <li><p>Opcion programada</p></li>
+                <li><p>Opcion programada</p></li>
+                <li><p>Opcion programada</p></li>
+            </ul>
+        </section>
+        <!--Quiz footer-->
+        <footer>
+            <div class="quizBox-footerTotal">
+                <span><p>2 de 5 Preguntas</p></span>
+            </div>
+            <button class="quizBox-footerTotal_button">Siguiente</button>
+        </footer>
+    </div>
+    <!--Scripts-->
+    <script type="module" src="../scripts/test-page/test-types/test-close.js"></script>
+</body>
+</html>
