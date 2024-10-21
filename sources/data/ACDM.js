@@ -107,6 +107,113 @@ var questions = [
         "TOBT (hora actual de retirada de calzos y movimiento del avión)",
       ]
     },
+    {
+      num: 11,
+      quest: "Para el intercambio y actualización de información operacional en la plataforma A-CDM es necesario establecer conexión de red ATFM, entre: ",
+      answer: "El Aeropuerto el Dorado (A-CDM) y la oficina de gestión de afluencia de tráfico aéreo - ATFM (Harmony)",
+      options: [
+        "CCO de OPAIN y Aerolíneas",
+        "El proveedor de servicio en tierra y la oficina de gestión de afluencia de tráfico aéreo - ATFM (Harmony)",
+        "El Aeropuerto el Dorado (A-CDM) y la oficina de gestión de afluencia de tráfico aéreo - ATFM (Harmony)",
+      ]
+    },
+    {
+      num: 12,
+      quest: "Selecciona la sigla que identifica la hora asignada por torre de control a la aeronave para abandonar la posición de estacionamiento, si esta cumple con su TOBT, ",
+      answer: "TSAT (Hora objetivo de aprobación de puesta en marcha)",
+      options: [
+        "TSAT (Hora objetivo de aprobación de puesta en marcha)",
+        "ATOT (Tiempo actual de despegue)",
+        "AIBT (Tiempo actual de puesta de calzos y apertura de puerta)",
+        "ARDT (Tiempo actual de aeronave lista)",
+      ]
+    },
+    {
+      num: 13,
+      quest: "Una de las responsabilidades del proveedor de servicio en tierra bajo el modelo operativo A-CDM en la operación de Copa y Wingo es registrar: ",
+      answer: "Hito 8 – ACGT: Tiempo de comienzo del proceso de servicio en tierra",
+      options: [
+        "Hito 11 – ASBT: Tiempo actual de comienzo de abordaje",
+        "Hito 9 – TOBT: Confirmación final de TOBT",
+        "Hito 8 – ACGT: Tiempo de comienzo del proceso de servicio en tierra",
+        "Hito 1: Activación del plan de vuelo"         
+      ]
+    },
+    {
+      num: 14,
+      quest: "Una vez emitido el TSAT (30 min antes de la salida del vuelo EOBT) se establece un número máximo de 3 cambios del TOBT para evitar ser eliminado de la secuencia de salida aportada por el sistema, esto es:",
+      answer: "Verdadero",
+      options: [
+        "Verdadero",
+        "Falso"        
+      ]
+    },
+    {
+      num: 15,
+      quest: "15.	En condiciones normales y si la operación está por itinerario, el TOBT es igual al STD, pero si se presentan demoras o irregularidades, el TOBT es igual al:",
+      answer: "ETD",
+      options: [
+        "TOFF",
+        "STA",
+        "ETD",
+        "TDOWN"        
+      ]
+    },
+    {
+      num: 16,
+      quest: "El concepto de “Aeronave lista” implica:",
+      answer:"Todas las anteriores",
+      options: [
+        "Puertas cerradas",
+        "Puente o escaleras han sido retiradas",
+        "Tractor de remolque conectado",
+        "Todas las anteriores"
+      ]
+    },
+    {
+      num: 17,
+      quest: "¿Con cuánto tiempo de anticipación requiere la plataforma A-CDM confirmar de forma manual la TOBT (hora objetivo de retirada de calzos y movimiento del avión)?",
+      answer: "40 mins",
+      options: [
+        "60 mins",
+        "20 mins",
+        "40 mins", 
+        "3 mins"
+      ]
+    },
+    {
+      num: 18,
+      quest: "El nuevo modelo operativo está basado en el desempeño de la operación por 16 hitos y como aerolínea integrada somos responsables de entregar a la plataforma A-CDM:",
+      answer: "7 Hitos",
+      options: [
+        "7 Hitos",
+        "16 hitos",
+        "2 hitos",
+        "9 hitos"
+      ]
+    },
+    {
+      num: 19,
+      quest: "Cuál será el canal de comunicación para la ejecución de los vuelos de la operación de CM y P5 bajo el modelo operativo A-CDM:",
+      answer: "Grupo de chat en Teams",
+      options: [
+        "Verbal",
+        "Correo electrónico",
+        "Grupo de chat en Teams",
+        "Llamada telefónica"      
+      ]
+    },
+    {
+      num: 20,
+      quest: "Seleccione las 4 fases del flujo del modelo operativo A-CDM en el aeropuerto el Dorado: ",
+      answer: "Comprobación de datos, llegada del vuelo al ATO el dorado, tránsito del vuelo en el ATO el Dorado, salida del vuelo desde el ATO el Dorado hacia su destino.",
+      options: [
+        "Comprobación de datos, llegada del vuelo al ATO el dorado, tránsito del vuelo en el ATO el Dorado, salida del vuelo desde el ATO el Dorado hacia su destino.",
+        "Despegue del vuelo de origen a BOG, Activación del Plan de vuelo, Inicio de abordaje y Despegue del vuelo desde el ATO el Dorado.",
+        "Activación del plan de vuelo, llegada de vuelo al ATO el Dorado, confirmación del TOBT y Emisión del TSAT.", 
+        "Confirmación del TOBT, emisión del TSAT, solicitud de salida de posición y aprobación de salida de posición." 
+      ]
+    },
   ]
 
 

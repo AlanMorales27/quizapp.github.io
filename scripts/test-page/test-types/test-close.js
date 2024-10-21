@@ -5,7 +5,7 @@ import questions from "../../../sources/data/ACDM.js";
 export class CloseTest extends QuizBox{
     constructor(timeValue, questionList){
         super(timeValue);
-        this.list = this.shuffle(questionList);
+        this.list = this.shuffle(questionList).slice(0,10);
         this.count_total = this.list.length;
         this.allOptions = this.optionList.children;
         this.count = 0;
