@@ -136,7 +136,7 @@ var questions = [
         "Hito 11 – ASBT: Tiempo actual de comienzo de abordaje",
         "Hito 9 – TOBT: Confirmación final de TOBT",
         "Hito 8 – ACGT: Tiempo de comienzo del proceso de servicio en tierra",
-        "Hito 1: Activación del plan de vuelo"         
+        "Hito 1 - Activación del plan de vuelo"         
       ]
     },
     {
@@ -150,7 +150,7 @@ var questions = [
     },
     {
       num: 15,
-      quest: "15.	En condiciones normales y si la operación está por itinerario, el TOBT es igual al STD, pero si se presentan demoras o irregularidades, el TOBT es igual al:",
+      quest: "En condiciones normales y si la operación está por itinerario, el TOBT es igual al STD, pero si se presentan demoras o irregularidades, el TOBT es igual al:",
       answer: "ETD",
       options: [
         "TOFF",
