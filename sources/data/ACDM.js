@@ -208,10 +208,10 @@ var questions = [
       quest: "Seleccione las 4 fases del flujo del modelo operativo A-CDM en el aeropuerto el Dorado: ",
       answer: "Comprobación de datos, llegada del vuelo al ATO el dorado, tránsito del vuelo en el ATO el Dorado, salida del vuelo desde el ATO el Dorado hacia su destino.",
       options: [
-        "Comprobación de datos, llegada del vuelo al ATO el dorado, tránsito del vuelo en el ATO el Dorado, salida del vuelo desde el ATO el Dorado hacia su destino.",
-        "Despegue del vuelo de origen a BOG, Activación del Plan de vuelo, Inicio de abordaje y Despegue del vuelo desde el ATO el Dorado.",
-        "Activación del plan de vuelo, llegada de vuelo al ATO el Dorado, confirmación del TOBT y Emisión del TSAT.", 
-        "Confirmación del TOBT, emisión del TSAT, solicitud de salida de posición y aprobación de salida de posición." 
+        "Comprobación de datos // llegada del vuelo al ATO el dorado // tránsito del vuelo en el ATO el Dorado // salida del vuelo desde el ATO el Dorado hacia su destino.",
+        "Despegue del vuelo de origen a BOG // Activación del Plan de vuelo // Inicio de abordaje y Despegue del vuelo desde el ATO el Dorado.",
+        "Activación del plan de vuelo // llegada de vuelo al ATO el Dorado // confirmación del TOBT y Emisión del TSAT.", 
+        "Confirmación del TOBT, emisión del TSAT // solicitud de salida de posición // aprobación de salida de posición." 
       ]
     },
   ]
