@@ -90,7 +90,7 @@ var questions = [
       quest: "¿Cuál es la herramienta que calcula de forma automática la secuencia de salida de los aviones de la posición?",
       answer: "PDS (secuenciador de salidas)",
       options: [
-        "VDGS(pantalla guía instalado en las posiciones de estacionamiento de avión)",
+        "VDGS (pantalla guía instalado en las posiciones de estacionamiento de avión)",
         "PDS (secuenciador de salidas)",
         "TSAT (hora objetivo de aprobación de puesta en marcha)",
         "AMS (Solución de gestión aeroportuaria)",
@@ -141,7 +141,7 @@ var questions = [
     },
     {
       num: 14,
-      quest: "Una vez emitido el TSAT (30 min antes de la salida del vuelo EOBT) se establece un número máximo de 3 cambios del TOBT para evitar ser eliminado de la secuencia de salida aportada por el sistema, esto es:",
+      quest: "Una vez emitido el TSAT (40 min antes de la salida del vuelo EOBT) se establece un número máximo de 3 cambios del TOBT para evitar ser eliminado de la secuencia de salida aportada por el sistema, esto es:",
       answer: "Verdadero",
       options: [
         "Verdadero",
@@ -173,12 +173,12 @@ var questions = [
     {
       num: 17,
       quest: "¿Con cuánto tiempo de anticipación requiere la plataforma A-CDM confirmar de forma manual la TOBT (hora objetivo de retirada de calzos y movimiento del avión)?",
-      answer: "40 mins",
+      answer: "Desde 50 min hasta no más tarde de 40min antes de la salida del vuelo",
       options: [
-        "60 mins",
-        "20 mins",
-        "40 mins", 
-        "3 mins"
+        "60 min antes de la salida del vuelo",
+        "3 min antes de la salida del vuelo",
+        "Desde 40 min hasta 3min antes de la salida del vuelo", 
+        "Desde 50 min hasta no más tarde de 40min antes de la salida del vuelo"
       ]
     },
     {
